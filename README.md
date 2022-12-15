@@ -5,7 +5,7 @@ Install plugin (hpm - hyperion plugin manager)
 Hyperion History v3.3.5+ required
 ```bash
 # install from this repository
-./hpm install -r https://github.com/eosrio/hyperion-explorer-plugin explorer
+./hpm install -r https://github.com/genesisblockid/hyperion-explorer-plugin explorer
 # enable the plugin globally
 ./hpm enable explorer
 ```
