@@ -53,7 +53,7 @@ let AccountComponent = class AccountComponent {
             creator: undefined,
             timestamp: undefined
         };
-        this.systemTokenContract = 'eosio.token';
+        this.systemTokenContract = 'vex.token';
         this.hasChild = (_, node) => node.expandable;
         this.treeControl = new tree_1.FlatTreeControl(node => node.level, node => node.expandable);
         this.treeFlattener = new tree_2.MatTreeFlattener(this.transformer, node => node.level, node => node.expandable, node => node.children);

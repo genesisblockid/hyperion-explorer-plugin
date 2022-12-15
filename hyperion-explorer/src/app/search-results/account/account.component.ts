@@ -105,7 +105,7 @@ export class AccountComponent implements OnInit, OnDestroy {
     creator: undefined,
     timestamp: undefined
   };
-  systemTokenContract = 'eosio.token';
+  systemTokenContract = 'vex.token';
 
   constructor(
     private activatedRoute: ActivatedRoute,

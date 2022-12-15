@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   eosioNodeUrl: 'http://192.168.10.120:7000',
   hyperionApiUrl: 'http://192.168.10.120:7000',
-  systemContract: 'eosio',
+  systemContract: 'vexcore',
   userResourcesTable: 'userres'
 };
 

@@ -8,7 +8,7 @@ exports.environment = {
     production: false,
     eosioNodeUrl: 'http://192.168.0.20:8888',
     hyperionApiUrl: 'http://192.168.0.20:7000',
-    systemContract: 'eosio',
+    systemContract: 'vexcore',
     userResourcesTable: 'userres'
 };
 /*

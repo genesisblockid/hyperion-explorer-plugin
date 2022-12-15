@@ -69,7 +69,7 @@ export class SearchService {
     }
 
     // public key
-    if (searchText.startsWith('PUB_K1_') || searchText.startsWith('EOS')) {
+    if (searchText.startsWith('PUB_K1_') || searchText.startsWith('VEX')) {
       await this.router.navigate(['/key', searchText]);
       return true;
     }

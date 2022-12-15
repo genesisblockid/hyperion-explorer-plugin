@@ -5,7 +5,7 @@ exports.environment = {
     production: true,
     eosioNodeUrl: '',
     hyperionApiUrl: '',
-    systemContract: 'eosio',
+    systemContract: 'vexcore',
     userResourcesTable: 'userres'
 };
 //# sourceMappingURL=environment.prod.js.map
