@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  eosioNodeUrl: 'http://192.168.10.120:7000',
-  hyperionApiUrl: 'http://192.168.10.120:7000',
+  eosioNodeUrl: 'https://vex.speakapp.me',
+  hyperionApiUrl: 'https://vex.speakapp.me',
   systemContract: 'vexcore',
   userResourcesTable: 'userres'
 };
